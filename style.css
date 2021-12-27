@@ -1,4 +1,12 @@
+body {
+    margin:0;
+    padding:0
+}
+
 header {
-    background-color: grey;
+    background-image: url("../images/header.png");
     height: 400px;
+    display: block;
+    background-size: cover;
+    position: relative;
 }
