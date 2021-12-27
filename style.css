@@ -10,3 +10,11 @@ header {
     background-size: cover;
     position: relative;
 }
+h1 { 
+    position: absolute;
+    display: inline-block;
+    right: 10vw;
+    top: 3vh;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
