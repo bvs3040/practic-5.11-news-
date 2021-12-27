@@ -2,6 +2,7 @@ body {
     margin:0;
     padding:0
 }
+/*блок заголовка*/
 
 header {
     background-image: url("../images/header.png");
@@ -20,6 +21,42 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:saddlebrown
 }
+/*блок новости*/
+.news {
+    background-color:rgb(10, 177, 228, .1);
+    padding: 50px 0 32px;
+}
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border: 3 px solid rgb(10, 0, 0);
+
+}
+article a {
+    color:rgb(10, 0, 0);
+    text-decoration: none;
+}
+article a:hover {
+    color: #0085a1;
+}
+article h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*блок футера*/
 
 footer {
     padding-top: 20px;
