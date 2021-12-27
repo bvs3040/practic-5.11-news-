@@ -25,22 +25,39 @@ h1 {
 }
 article {
     width: 768px;
-    margin: 0 auto 32px;
+    margin: 0px auto 32px;
     padding: 6px 15px;
     border: 3 px solid rgb(10, 0, 0);
+
+}
+article:nth-child(even){
+    width: 768px;
+    margin: 0px auto 32px;
+    padding: 6px 15px;
+    border: 3 px solid rgb(10, 0, 0);
+    background-color: rgb(187, 240, 214);
+    
 
 }
 article a {
     color:rgb(10, 0, 0);
     text-decoration: none;
 }
+
 article a:hover {
     color: #0085a1;
 }
-article h2 {
+article h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 10px;
     }
+article:nth-child(1) h2::after, article:nth-child(2) h2::after{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 10px;
+        color: red;
+        content: "   NEW";
+        }    
+
 .article-meta {
     color: rgb(134, 142, 150);
     margin-bottom: 10px;
