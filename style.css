@@ -20,7 +20,7 @@ h1 {
 }
 /*блок новости*/
 .news {
-    background-color:rgb(10, 177, 228, .1);
+    background-color:#fff;
     padding: 50px 0 32px;
 }
 article {
