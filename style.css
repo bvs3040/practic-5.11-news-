@@ -9,12 +9,37 @@ header {
     display: block;
     background-size: cover;
     position: relative;
+    margin-bottom: 10px;
 }
 h1 { 
     position: absolute;
-    display: inline-block;
+    display: block;
     right: 10vw;
     top: 3vh;
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:saddlebrown
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links {
+    margin-bottom: 60px;
+}
+footer .links >a {
+    color: saddlebrown;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    letter-spacing: .3rem;
+    font-weight: 800;
+    padding: 0 1vw;
+
+}
+.copyright {
+    color:rgb(112, 10, 228);
+    font-family: cursive;
 }
