@@ -8,9 +8,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
-    background: url("../images/header.png") bottom no-repeat;
-     background-size: cover;
+    height: 600px;
+    background: url("https://images.unsplash.com/photo-1640594023807-bfff6adc221c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"); bottom: no-repeat;
+    background-size: 100% 100%;
 }
 h1 { 
     font-size: 3rem;
